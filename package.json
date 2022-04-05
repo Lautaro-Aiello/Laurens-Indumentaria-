@@ -1,0 +1,25 @@
+{
+  "name": "laurens-indumentaria",
+  "version": "1.0.0",
+  "description": "Creada a partir de VSC, con CSS y animaciones en todos los html.\r Proximamente Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+		"watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lautaro-Aiello/Laurens-Indumentaria.git"
+  },
+  "author": "lautaro-aiello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lautaro-Aiello/Laurens-Indumentaria/issues"
+  },
+  "homepage": "https://github.com/Lautaro-Aiello/Laurens-Indumentaria#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

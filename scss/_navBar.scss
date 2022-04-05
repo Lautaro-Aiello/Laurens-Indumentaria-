@@ -1,0 +1,46 @@
+h1{
+	font-size: map-get($map:$fontsizes,$key:'9'); 
+	margin-left: -6px;
+}
+
+header{
+    font-weight: 500;
+	font-size: map-get($map:$fontsizes,$key:'2');   
+}
+
+header nav a{
+	text-decoration: none;
+	font-family: $fontMain;
+}
+
+header nav ul li{
+	list-style: none;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 30px;
+    a{
+        color: $contentColor;
+        text-decoration: none;
+        &:hover{
+            color: $keycolor;
+	        font-weight: 600;
+	        cursor: pointer;
+        } 
+    }
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    padding: 10px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1C1A1A;
+    flex-direction: column;
+}
+
+.navUl{
+    display: flex;
+    margin-left: -52;  
+}

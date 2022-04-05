@@ -1,0 +1,85 @@
+//variables
+
+//colores
+$titleColor:rgb(218, 165, 32);
+$contentColor:rgb(184, 134, 11);
+$keycolor: black;
+
+
+
+//fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Oswald:wght@200&display=swap');
+  
+
+$fontTitle: 'Cookie', cursive; 
+
+$fontMain: 'Oswald', sans-serif; 
+
+*{
+	margin: 0;
+	padding: 0;
+} 
+
+html{
+	font-size: 62.5%;
+	background-color: black ;
+}
+.textCenter{
+	text-align: center;		
+}
+
+.textRight{
+	text-align: right;
+}
+
+.textLeft{
+	text-align: left;
+}
+
+.textItalic{
+	font-style: italic;
+}
+
+
+//mixin
+
+@mixin texto($color, $font-weight, $font-family){
+	color: $titleColor;
+	font-weight: $font-weight;
+	font-family: $fontTitle;
+}
+
+h1,h2{
+	@include texto($titleColor, 350, $fontTitle)
+}
+
+h3{
+	@include texto($titleColor, 250, $fontTitle)
+}
+
+
+//map
+
+$fontsizes: (
+	'1': 1rem,
+	'2': 2rem,
+	'3': 2.5rem,
+	'4': 2.6rem,
+	'5': 3rem,
+	'6': 3.6rem,
+	'7': 4rem,
+	'8': 4.6rem,
+	'9': 5rem,
+	'10': 13px,
+	'11': 25px,);
+
+
+//extend
+
+.input__contacto--extend{
+	@extend .inputContacto;
+	border-radius: 9px;
+}

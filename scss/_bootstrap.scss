@@ -1,0 +1,28 @@
+//Bootstrap
+
+#logo{
+	font-size: map-get($map:$fontsizes,$key:'4');
+	color: $titleColor;
+	
+	font-family: $fontTitle;
+	
+}
+
+#navB{
+	background-color: #1C1A1A !important;
+}
+
+.navDecoration{
+	color: $contentColor !important;
+	font-family: $fontMain;
+}
+
+#buttonNav{
+	border-color: $contentColor !important;
+	width: 2.5em;
+    height: 2.5em;
+}
+
+.botonHam{
+	padding: 0.25rem 1.75rem !important;
+}

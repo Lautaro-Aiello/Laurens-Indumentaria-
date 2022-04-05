@@ -1,0 +1,102 @@
+h2{
+	font-size: map-get($map:$fontsizes,$key:'7');
+	
+}
+
+main p{
+	color: $contentColor;
+	font-weight: 500;
+	font-size: map-get($map:$fontsizes,$key:'2');
+	line-height: 4rem;
+	font-family: $fontMain;
+}
+
+
+//prendas
+
+.categoriasShop{
+	margin-left: 127px;
+	margin-top: 40px;
+	text-decoration: none;
+	line-height: 4rem;
+}
+
+
+.box{
+	padding: 10px;
+	width: 22rem;
+}
+
+
+.container{
+	padding: 27px;
+	margin: -4px; 
+	
+}
+
+.prendas .container figure{
+	text-align: center;
+	p{
+		margin-bottom: 30px;
+    	font-size: map-get($map:$fontsizes,$key:'2');
+    	line-height: 1rem;
+	}
+
+}
+
+figcaption{
+	color: $contentColor;
+	font-size: map-get($map:$fontsizes,$key:'3');
+	line-height: 4rem;
+	font-family: $fontMain;
+	text-align: center;
+	padding: 10px 0;
+}
+
+//nosotros
+.encabezadoNosotros{
+	padding: 40px 40px
+}
+
+.nosotros__articulo--left{
+	width: 90%;
+	margin: 3px auto;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+
+.nosotros__articulo--right{
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+//contacto
+.encabezadoContacto{
+	margin: 10px 20px;
+	padding-left: 110px;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+
+.bordeContacto{
+	border-style: solid;
+	border-color: $contentColor;
+	margin-left: 20px;
+	color: $contentColor;
+	font-weight: 300;
+	font-size: map-get($map:$fontsizes,$key:'2');
+	line-height: 4rem;
+	font-family: $fontMain;
+	margin-right: 73%;
+	margin-left: 87px;
+	margin-bottom: 14px;
+	height: 43rem;
+}
+
+.inputContacto{
+	margin-left: 99px;
+}
+
