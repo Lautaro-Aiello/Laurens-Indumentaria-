@@ -4,7 +4,7 @@
 .contenedorIndex{
 	display: grid;
 	grid-template-columns: repeat(2, 2fr);
-	grid-template-rows: 103vw 177vw 44vw 0vw;
+	grid-template-rows: 48vh 145vh 24vh 0vh;
 	grid-template-areas: "headerIndex headerIndex"
 	"mainIndex mainIndex" "pieIndex pieIndex";
 }
@@ -62,7 +62,7 @@
 @media (min-width: 400px){
 	.contenedorIndex{
 		grid-template-columns: repeat(2, 2fr);
-		grid-template-rows: 99vw 76vw 31vw 0vw;
+		grid-template-rows: 66vh 72vh 24vh 0vh;
 		grid-template-areas: "headerIndex headerIndex"
 		"mainIndex mainIndex" "pieIndex pieIndex";
 	}
@@ -88,11 +88,20 @@
 
 }
 
+@media (min-width: 500px){
+	.contenedorIndex{
+		grid-template-columns: repeat(2, 2fr);
+		grid-template-rows: 81vh 67vh 24vh 0vh;
+		grid-template-areas: "headerIndex headerIndex"
+		"mainIndex mainIndex" "pieIndex pieIndex";
+	}
+
+}
 
 @media (min-width: 600px){
 	.contenedorIndex{
 		grid-template-columns: repeat(2, 2fr);
-		grid-template-rows: 100vw 67vw 20vw 0vw;
+		grid-template-rows: 101vh 83vh 24vh 0vh;
 		grid-template-areas: "headerIndex headerIndex"
 		"mainIndex mainIndex" "pieIndex pieIndex";
 	}
@@ -115,10 +124,23 @@
 	}
 }
 
-@media (min-width: 1050px){
+@media (min-width: 750px){
 	.contenedorIndex{
 		grid-template-columns: repeat(2, 2fr);
-		grid-template-rows: 77vw 64vw 13vw 0vw;;
+		grid-template-rows: 122vh 81vh 24vh 0vh;
+		grid-template-areas: "headerIndex headerIndex"
+		"mainIndex mainIndex" "pieIndex pieIndex";
+	}
+	
+	.indexHam {
+		margin-left: 337px;
+	}
+}
+
+@media (min-width: 1000px){
+	.contenedorIndex{
+		grid-template-columns: repeat(2, 2fr);
+		grid-template-rows: 131vh 90vh 24vh 0vh;
 		grid-template-areas: "headerIndex headerIndex"
 		"mainIndex mainIndex" "pieIndex pieIndex";
 	}
@@ -145,11 +167,19 @@
 
 }
 
+@media (min-width: 1340px){
+	.contenedorIndex{
+		grid-template-columns: repeat(2, 2fr);
+		grid-template-rows: 185vh 111vh 24vh 0vh;;
+		grid-template-areas: "headerIndex headerIndex"
+		"mainIndex mainIndex" "pieIndex pieIndex";
+	}
+}
 
 @media (min-width: 1500px){
 	.contenedorIndex{
 		grid-template-columns: repeat(2, 2fr);
-		grid-template-rows:  71vw 46vw 8vw 0vw;
+		grid-template-rows:  198vh 143vh 24vh 0vh;
 		grid-template-areas: "headerIndex headerIndex"
 		"mainIndex mainIndex" "pieIndex pieIndex";
 	}
@@ -166,6 +196,15 @@
 	.imagenIndex{
 		margin-top: -298px;
 		width: 100%;
+	}
+}
+
+@media (min-width: 1920px){
+	.contenedorIndex{
+		grid-template-columns: repeat(2, 2fr);
+		grid-template-rows:  170vh 100vh 18vh 0vh;
+		grid-template-areas: "headerIndex headerIndex"
+		"mainIndex mainIndex" "pieIndex pieIndex";
 	}
 }
 
@@ -694,6 +733,13 @@
 @media (min-width: 1700px){
 	.bordeContacto{
 		margin-right: 65%;
+	}
+}
+
+@media (min-width: 1920px){
+	.contenedorCon{
+		grid-template-columns: 99vw;
+		grid-template-rows: 7vh 130vh 18vh;
 	}
 }
 

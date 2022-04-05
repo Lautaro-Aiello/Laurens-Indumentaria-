@@ -1,8 +1,3 @@
-h1{
-	font-size: map-get($map:$fontsizes,$key:'9'); 
-	margin-left: -6px;
-}
-
 header{
     font-weight: 500;
 	font-size: map-get($map:$fontsizes,$key:'2');   
