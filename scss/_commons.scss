@@ -52,7 +52,7 @@ html{
 	font-family: $fontTitle;
 }
 
-h2{
+h1,h2{
 	@include texto($titleColor, 350, $fontTitle)
 }
 

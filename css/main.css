@@ -20,7 +20,7 @@ html {
 .textItalic {
   font-style: italic; }
 
-h2 {
+h1, h2 {
   color: goldenrod;
   font-weight: 350;
   font-family: "Cookie", cursive; }
@@ -88,7 +88,7 @@ header nav ul li {
   display: flex;
   margin-left: -52; }
 
-h2 {
+h1, h2 {
   font-size: 4rem; }
 
 main p {
