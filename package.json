@@ -1,7 +1,7 @@
 {
   "name": "laurens-indumentaria",
   "version": "1.0.0",
-  "description": "Creada a partir de VSC, con CSS y animaciones en todos los html.\r Proximamente Bootstrap",
+  "description": "Sitio Web sobre ventas de indumentaria masculina en Santa Fe Capital, creado a partir de Bootstrap, y SASS con un SEO estandar. Adaptado para mobile y desktop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
