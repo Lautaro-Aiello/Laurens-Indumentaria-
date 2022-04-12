@@ -191,7 +191,7 @@ h3 {
 .contenedorIndex {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: 48vh 145vh 24vh 0vh;
+  grid-template-rows: 46vh 145vh 24vh 0vh;
   grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; }
 
 .headerIndex {
@@ -234,10 +234,38 @@ h3 {
   display: flex;
   margin-top: -6%; }
 
+@media (min-width: 358px) {
+  .botonHam {
+    margin-left: 1rem !important; } }
+
+@media (min-width: 339px) {
+  .botonHam {
+    margin-left: 2rem !important; } }
+
+@media (min-width: 378px) {
+  .botonHam {
+    margin-left: 10rem !important; } }
+
+@media (min-width: 458px) {
+  .botonHam {
+    margin-left: 18rem !important; } }
+
+@media (min-width: 538px) {
+  .botonHam {
+    margin-left: 23rem !important; } }
+
+@media (min-width: 588px) {
+  .botonHam {
+    margin-left: 26rem !important; } }
+
+@media (min-width: 686px) {
+  .botonHam {
+    margin-left: 35rem !important; } }
+
 @media (min-width: 400px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 66vh 72vh 24vh 0vh;
+    grid-template-rows: 63vh 72vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; }
   .mainIndex {
     flex-direction: row; }
@@ -254,13 +282,13 @@ h3 {
 @media (min-width: 500px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 81vh 67vh 24vh 0vh;
+    grid-template-rows: 76vh 67vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; } }
 
 @media (min-width: 600px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 101vh 83vh 24vh 0vh;
+    grid-template-rows: 93vh 83vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; }
   .boxInde {
     width: 223px; }
@@ -270,12 +298,12 @@ h3 {
   .indexHam {
     margin-left: 186px; }
   .indexLogo {
-    font-size: 4.6rem !important; } }
+    font-size: 3.6rem !important; } }
 
 @media (min-width: 750px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 122vh 81vh 24vh 0vh;
+    grid-template-rows: 114vh 81vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; }
   .indexHam {
     margin-left: 337px; } }
@@ -283,7 +311,7 @@ h3 {
 @media (min-width: 1000px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 131vh 90vh 24vh 0vh;
+    grid-template-rows: 124vh 90vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; }
   .nav {
     flex-direction: row;
@@ -300,13 +328,13 @@ h3 {
 @media (min-width: 1340px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 185vh 111vh 24vh 0vh;
+    grid-template-rows: 174vh 111vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; } }
 
 @media (min-width: 1500px) {
   .contenedorIndex {
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: 198vh 143vh 24vh 0vh;
+    grid-template-rows: 187vh 143vh 24vh 0vh;
     grid-template-areas: "headerIndex headerIndex" "mainIndex mainIndex" "pieIndex pieIndex"; }
   .boxInde {
     width: 384px; }
