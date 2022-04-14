@@ -845,6 +845,15 @@ body {
   margin-top: 0px;
   margin-bottom: 25px; }
 
+.error404 {
+  font-family: "Oswald", sans-serif;
+  color: darkgoldenrod;
+  text-decoration: none;
+  font-size: 2rem; }
+  .error404:hover {
+    color: #1C1A1A;
+    cursor: pointer; }
+
 @media only screen and (max-width: 767px) {
   .notfound .notfound-404 {
     height: 200px; }
