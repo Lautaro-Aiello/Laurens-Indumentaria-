@@ -295,9 +295,21 @@
 	margin-top: -1px;
 }
 
+@media (min-width: 619px){
+	.botonPren{
+		margin-left: 34rem !important;
+	}
+}
+
+@media (min-width: 700px){
+	.botonPren{
+		margin-left: 43rem !important;
+	}
+}
+
 @media (min-width: 768px){
 	.contenedor{
-		grid-template-columns: 45vw 55vw;
+		grid-template-columns: 45vw 53vw;
 		grid-template-rows: auto;
 		grid-template-areas: "header header" 
 		"aside prendas" "pie pie";
@@ -319,9 +331,18 @@
 
 }
 
+@media (min-width: 1000px){
+	.contenedor{
+		grid-template-columns: 45vw 52vw;
+		grid-template-rows: auto;
+		grid-template-areas: "header header" 
+		"aside prendas" "pie pie";
+	}
+}
+
 @media (min-width: 1200px){  
 	.contenedor{
-		grid-template-columns: 16vw 59vw 26vw;
+		grid-template-columns: 16vw 59vw 24vw;
 		grid-template-rows: repeat(3, auto);
 		grid-template-areas: "header header header" 
 		"aside prendas prendas" "pie pie pie";
@@ -364,9 +385,19 @@
 	}  
 }
 
+@media (min-width: 1500px){
+	.contenedor{
+		grid-template-columns: 16vw 59vw 22vw;
+		grid-template-rows: repeat(3, auto);
+		grid-template-areas: "header header header" 
+		"aside prendas prendas" "pie pie pie";
+	}
+}
+
+
 @media (min-width: 1800px){
 	.contenedor{
-		grid-template-columns: 13vw 62vw 24vw; 
+		grid-template-columns: 13vw 62vw 22vw; 
 		grid-template-rows: repeat(3, auto);
 		grid-template-areas: "header header header" 
 	"aside prendas prendas" "pie pie pie";
@@ -383,6 +414,15 @@
 	#logo{
 		font-size: map-get($map:$fontsizes,$key:'8') !important;
  	}	
+}
+
+@media (min-width: 1920px){
+	.contenedor{
+		grid-template-columns: 13vw 62vw 24vw; 
+		grid-template-rows: repeat(3, auto);
+		grid-template-areas: "header header header" 
+	"aside prendas prendas" "pie pie pie";
+	}
 }
 
 //Accesorios
@@ -422,6 +462,18 @@
 .pieAcces{
 	grid-area: pieAcces;
 	margin-top: -1px;
+}
+
+@media (min-width: 619px){
+	.botonPren{
+		margin-left: 34rem !important;
+	}
+}
+
+@media (min-width: 699px){
+	.botonPren{
+		margin-left: 42rem !important;
+	}
 }
 
 @media (min-width: 700px){
@@ -495,7 +547,7 @@
 
 @media (min-width: 1800px){
 	.contenedorAcces{
-		grid-template-columns: 13vw 61vw 25vw; 
+		grid-template-columns: 13vw 61vw 26vw; 
 		grid-template-rows: repeat(3, auto);
 		grid-template-areas: "headerAcces headerAcces headerAcces" 
 	"asideAcces mainAcces mainAcces" "pieAcces pieAcces pieAcces";
@@ -515,12 +567,21 @@
 
 }
 
+@media (min-width: 1920px){
+	.contenedorAcces{
+		grid-template-columns: 13vw 61vw 25vw; 
+		grid-template-rows: repeat(3, auto);
+		grid-template-areas: "headerAcces headerAcces headerAcces" 
+	"asideAcces mainAcces mainAcces" "pieAcces pieAcces pieAcces";
+	}
+}
+
 // Nosotros
 
 .contenedorNos{
 	display: grid;
 	grid-template-columns: 2fr;
-	grid-template-rows: 7vh 291vh 18vh;
+	grid-template-rows: 7vh 299vh 18vh;
 	grid-template-areas: "headerNos" "mainNos" "pieNos";
 }
 
@@ -575,6 +636,18 @@
 
 }
 
+@media (min-width: 619px){
+	.nosHam{
+		margin-left: 33rem !important;
+	}
+}
+
+@media (min-width: 689px){
+	.nosHam{
+		margin-left: 38rem !important;
+	}
+}
+
 @media (min-width: 700px){
 	.contenedorNos{
 		display: grid;
@@ -591,12 +664,13 @@
 		height: 42rem;
 	}
 
-	.nosHam{
-		margin-left: 42%;
-	}
 
 	.logoNos{
 		font-size: map-get($map:$fontsizes,$key:'8') !important;
+	}
+
+	.nosHam{
+		margin-left: 29rem !important;
 	}
 
 }
@@ -622,7 +696,7 @@
 	}
 }
 
-@media (min-width: 1900px){
+@media (min-width: 1920px){
 	.contenedorNos{
 		grid-template-columns: 46vw 53vw;
     	grid-template-rows: 5vh 120vh 17vh;
@@ -708,6 +782,19 @@
 
 }
 
+@media (min-width: 333px){
+	.buttonCon{
+		margin-left: 9rem !important;
+	}
+}
+
+@media (min-width: 416px){
+	.buttonCon{
+		margin-left: 18rem !important;
+	}
+}
+
+
 @media (min-width: 450px){
 	.areaText{
 		width: 44rem;
@@ -722,24 +809,36 @@
 	}
 
 	.buttonCon{
-		margin-left: 46%;
+		margin-left: 21rem !important;
 	}
 }
 
-@media (min-width: 600px){
+@media (min-width: 527px){
 	.buttonCon{
-		margin-left: 34%;
+		margin-left: 30rem !important;
 	}
+}
 
-	
 
+
+@media (min-width: 600px){
 	.bordeContacto{
 		height: 70rem;
 	}
 
 }
 
+@media (min-width: 611px){
+	.buttonCon{
+		margin-left: 39rem !important;
+	}
+}
 
+@media (min-width: 694px){
+	.buttonCon{
+		margin-left: 48rem !important;
+	}
+}
 
 
 @media (min-width: 700px){
@@ -763,6 +862,11 @@
     	margin-top: 4rem;
     	margin-bottom: 3rem;
 	}
+
+	.buttonCon{
+		margin-left: 43rem !important;
+	}
+
 }
 
 @media (min-width: 1000px){

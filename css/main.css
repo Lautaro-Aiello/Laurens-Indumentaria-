@@ -53,6 +53,9 @@ h3 {
 .botonHam {
   padding: 0.25rem 1.75rem !important; }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28218, 165, 32, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
 header {
   font-weight: 500;
   font-size: 2rem; }
@@ -381,9 +384,17 @@ h3 {
   background-color: black;
   margin-top: -1px; }
 
+@media (min-width: 619px) {
+  .botonPren {
+    margin-left: 34rem !important; } }
+
+@media (min-width: 700px) {
+  .botonPren {
+    margin-left: 43rem !important; } }
+
 @media (min-width: 768px) {
   .contenedor {
-    grid-template-columns: 45vw 55vw;
+    grid-template-columns: 45vw 53vw;
     grid-template-rows: auto;
     grid-template-areas: "header header"  "aside prendas" "pie pie"; }
   #logo {
@@ -395,9 +406,15 @@ h3 {
     flex-direction: column;
     align-items: center; } }
 
+@media (min-width: 1000px) {
+  .contenedor {
+    grid-template-columns: 45vw 52vw;
+    grid-template-rows: auto;
+    grid-template-areas: "header header"  "aside prendas" "pie pie"; } }
+
 @media (min-width: 1200px) {
   .contenedor {
-    grid-template-columns: 16vw 59vw 26vw;
+    grid-template-columns: 16vw 59vw 24vw;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "header header header"  "aside prendas prendas" "pie pie pie"; }
   .aside {
@@ -420,9 +437,15 @@ h3 {
   .categoriasShop {
     margin-left: 22px; } }
 
+@media (min-width: 1500px) {
+  .contenedor {
+    grid-template-columns: 16vw 59vw 22vw;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header header header"  "aside prendas prendas" "pie pie pie"; } }
+
 @media (min-width: 1800px) {
   .contenedor {
-    grid-template-columns: 13vw 62vw 24vw;
+    grid-template-columns: 13vw 62vw 22vw;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "header header header"  "aside prendas prendas" "pie pie pie"; }
   .categoriasShop {
@@ -431,6 +454,12 @@ h3 {
     align-items: stretch; }
   #logo {
     font-size: 4.6rem !important; } }
+
+@media (min-width: 1920px) {
+  .contenedor {
+    grid-template-columns: 13vw 62vw 24vw;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "header header header"  "aside prendas prendas" "pie pie pie"; } }
 
 .contenedorAcces {
   display: grid;
@@ -462,6 +491,14 @@ h3 {
 .pieAcces {
   grid-area: pieAcces;
   margin-top: -1px; }
+
+@media (min-width: 619px) {
+  .botonPren {
+    margin-left: 34rem !important; } }
+
+@media (min-width: 699px) {
+  .botonPren {
+    margin-left: 42rem !important; } }
 
 @media (min-width: 700px) {
   .contenedorAcces {
@@ -504,7 +541,7 @@ h3 {
 
 @media (min-width: 1800px) {
   .contenedorAcces {
-    grid-template-columns: 13vw 61vw 25vw;
+    grid-template-columns: 13vw 61vw 26vw;
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "headerAcces headerAcces headerAcces"  "asideAcces mainAcces mainAcces" "pieAcces pieAcces pieAcces"; }
   .categoriasShop {
@@ -514,10 +551,16 @@ h3 {
   .mainAcces {
     align-items: stretch; } }
 
+@media (min-width: 1920px) {
+  .contenedorAcces {
+    grid-template-columns: 13vw 61vw 25vw;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "headerAcces headerAcces headerAcces"  "asideAcces mainAcces mainAcces" "pieAcces pieAcces pieAcces"; } }
+
 .contenedorNos {
   display: grid;
   grid-template-columns: 2fr;
-  grid-template-rows: 7vh 291vh 18vh;
+  grid-template-rows: 7vh 299vh 18vh;
   grid-template-areas: "headerNos" "mainNos" "pieNos"; }
 
 .headerNos {
@@ -556,6 +599,14 @@ h3 {
   .nosHam {
     margin-left: 23%; } }
 
+@media (min-width: 619px) {
+  .nosHam {
+    margin-left: 33rem !important; } }
+
+@media (min-width: 689px) {
+  .nosHam {
+    margin-left: 38rem !important; } }
+
 @media (min-width: 700px) {
   .contenedorNos {
     display: grid;
@@ -566,10 +617,10 @@ h3 {
     height: 30rem; }
   .nosotros__articulo--right {
     height: 42rem; }
-  .nosHam {
-    margin-left: 42%; }
   .logoNos {
-    font-size: 4.6rem !important; } }
+    font-size: 4.6rem !important; }
+  .nosHam {
+    margin-left: 29rem !important; } }
 
 @media (min-width: 1700px) {
   .contenedorNos {
@@ -583,7 +634,7 @@ h3 {
   .nosotros__articulo--right {
     height: 25rem; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 1920px) {
   .contenedorNos {
     grid-template-columns: 46vw 53vw;
     grid-template-rows: 5vh 120vh 17vh;
@@ -642,6 +693,14 @@ h3 {
   .areaText {
     width: 29rem; } }
 
+@media (min-width: 333px) {
+  .buttonCon {
+    margin-left: 9rem !important; } }
+
+@media (min-width: 416px) {
+  .buttonCon {
+    margin-left: 18rem !important; } }
+
 @media (min-width: 450px) {
   .areaText {
     width: 44rem; }
@@ -650,13 +709,23 @@ h3 {
   .inputContacto, .input__contacto--extend {
     margin-left: 123px; }
   .buttonCon {
-    margin-left: 46%; } }
+    margin-left: 21rem !important; } }
+
+@media (min-width: 527px) {
+  .buttonCon {
+    margin-left: 30rem !important; } }
 
 @media (min-width: 600px) {
-  .buttonCon {
-    margin-left: 34%; }
   .bordeContacto {
     height: 70rem; } }
+
+@media (min-width: 611px) {
+  .buttonCon {
+    margin-left: 39rem !important; } }
+
+@media (min-width: 694px) {
+  .buttonCon {
+    margin-left: 48rem !important; } }
 
 @media (min-width: 700px) {
   .contenedorCon {
@@ -672,7 +741,9 @@ h3 {
   .encabezadoContacto {
     padding-left: 57px;
     margin-top: 4rem;
-    margin-bottom: 3rem; } }
+    margin-bottom: 3rem; }
+  .buttonCon {
+    margin-left: 43rem !important; } }
 
 @media (min-width: 1000px) {
   .encabezadoContacto {
